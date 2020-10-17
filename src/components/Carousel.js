@@ -72,7 +72,7 @@ class Carousel extends React.Component {
 
     items[id].selected = items[id].selected ? false : true;
 
-    items.forEach((item) => {
+    items.forEach(item => {
       if (item.id !== id) {
         item.selected = false;
       }

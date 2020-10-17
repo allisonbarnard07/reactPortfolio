@@ -9,12 +9,12 @@ code {
 }
 
 
-.g-card {
+.a-card {
   margin: 10px;
 }
 
 
-.g-card-image {
+.a-card-image {
   border-radius: 10px;
   width: 660px;
   height: 360px;
@@ -22,19 +22,19 @@ code {
 }
 
 
-.g-card-info {
+.a-card-info {
   margin-top: 10px;
   min-height: 100px;
 }
 
 
-.g-card-title {
+.a-card-title {
   font-size: 24px;
   margin: 0px;
 }
 
 
-.g-card-sub-title {
+.a-card-sub-title {
   font-size: 16px;
   margin: 0px;
 }
