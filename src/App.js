@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import {Navbar, Nav, Container} from "react-bootstrap";
 import "./App.css";
 
+import Footer from './components/Footer';
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
@@ -70,6 +71,7 @@ class App extends React.Component {
             path="/contact"
             render={() => <Contact title={this.state.contact.title} />}
           />
+          <Footer />
         </Container>
       </Router>
     );

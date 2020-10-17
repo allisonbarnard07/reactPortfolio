@@ -90,11 +90,15 @@ return items.map(item => {
   }
 
   render() {
-    return <Container fluid={true}>
-        <Row className="justify-content-around">
-{this.makeItems(this.state.items)}
-        </Row>
-    </Container>
-  }
+    return(
+        <Container fluid={true}>
+            <Row className="justify-content-around">
+                {this.makeItems(this.state.items)}
+            </Row>
+        </Container>
+    );
 }
+
+}
+
 export default Carousel;
