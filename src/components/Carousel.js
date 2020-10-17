@@ -1,11 +1,12 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Card from '../components/Card';
-import woodDoor from '../assets/images/woodDoor';
-import readMe from '../assets/images/readMe';
-import employeeManagementSystem from '../assets/images/employeeManagementSystem';
-import passwordGenerator from '../assets/images/passwordGenerator';
-import websiteCleanup from '../assets/images/websiteCleanup';
+import woodDoor from '../assets/images/woodDoor.png';
+import readMe from '../assets/images/readMe.gif';
+import employeeManagementSystem from '../assets/images/employeeManagementSystem.gif';
+import passwordGenerator from '../assets/images/passwordGenerator.png';
+import websiteCleanup from '../assets/images/websiteCleanup.png';
+import buildAndFlex from '../assets/images/buildAndFlex.png';
 
 //import images from assets folder HERE "example: import picture from '../assets/images/picture.jpg"
 
@@ -52,6 +53,14 @@ class Carousel extends React.Component {
             subTitle: "A code clean up project.",
             imgSrc: websiteCleanup,
             link: "https://allisonbarnard07.github.io/website_cleanup/",
+            selected: false,
+          },
+          {
+            id: 5,
+            title: "Build & Flex",
+            subTitle: "A walking challenge application.",
+            imgSrc: buildAndFlex,
+            link: "https://buildandflex.herokuapp.com/",
             selected: false,
           }
       ],
