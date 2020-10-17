@@ -8,10 +8,9 @@ function Footer() {
             <Container fluid={true}>
                 <Row className="border-top justify-content-between p-3">
                     <Col className="p-0" md={3} sm={12}>
-                        Allison Barnard
                     </Col>
                     <Col className="p-0 d-flex justify-content-end" md={3}>
-                        This application was made by Allison Barnard.
+                        This application was created by Allison Barnard.
                     </Col>
                 </Row>
             </Container>

@@ -8,8 +8,6 @@ import passwordGenerator from '../assets/images/passwordGenerator.png';
 import websiteCleanup from '../assets/images/websiteCleanup.png';
 import buildAndFlex from '../assets/images/buildAndFlex.png';
 
-//import images from assets folder HERE "example: import picture from '../assets/images/picture.jpg"
-
 class Carousel extends React.Component {
   constructor(props) {
     super(props);
@@ -68,28 +66,31 @@ class Carousel extends React.Component {
   }
 
   handleCardClick = (id, card) => {
-    let items = { ...this.state.items };
+
+    let items = [...this.state.items];
 
     items[id].selected = items[id].selected ? false : true;
 
     items.forEach(item => {
-      if (item.id !== id) {
-        item.selected = false;
-      }
+        if(item.id !== id) {
+            item.selected = false;
+        }
     });
 
     this.setState({
         items
     });
-  }
+}
 
-  makeItems = (items) => {
-return items.map(item => {
-    return <Card item={item} onClick={(e => this.handleCardClick(item.id, e))} key={item.id}/>
-})
-  }
 
-  render() {
+makeItems = (items) => {
+    return items.map(item => {
+        return <Card item={item} click={(e => this.handleCardClick(item.id, e))} key={item.id} />
+    })
+}
+
+
+render() {
     return(
         <Container fluid={true}>
             <Row className="justify-content-around">

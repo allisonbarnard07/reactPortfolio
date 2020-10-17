@@ -17,7 +17,7 @@ code {
 .a-card-image {
   border-radius: 10px;
   width: 660px;
-  height: 360px;
+  height: 460px;
   box-shadow: 0px 0px 3px 1px #ccc;
 }
 
@@ -49,4 +49,13 @@ code {
 .err-msg {
   color: #EE6352;
   padding: 10px 15px;
+}
+
+.photo {
+  height: 400px;
+  width: 400px;
+  padding-left: 100px;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  float: left;
 }
