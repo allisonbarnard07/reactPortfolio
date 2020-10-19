@@ -20,7 +20,7 @@ class App extends React.Component {
       home: {
         title: "Portfolio",
         subTitle: "My Projects",
-        subSubText: "Here is a list of my projects. Click on the project image to access as drop down that includes: a title, brief description, and a 'View' link to the project",
+        subSubText: "Here is a list of my projects. Click on the project image to access a drop down that includes: a title, brief description, and a 'View' link to the project",
       },
       about: {
         title: "About Me",
