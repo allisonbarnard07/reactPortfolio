@@ -9,6 +9,10 @@ Allison Barnard's portfolio built with ReactJS. The portfolio includes a home pa
 ### __Tests__
 There are no tests currently.  Please make sure to update tests as appropriate.
 
+## App Photos
+![about_page_image](/About.png)
+
+
 
 ## Collaborators
 Allison Barnard
