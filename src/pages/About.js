@@ -11,7 +11,7 @@ function About(props){
 
             <Content>
         <p>Hello, my name is Allison Barnard. I am a full stack web developer who just graduated from Case Western Reserve's Full Stack Coding Boot Camp.</p>
-        <p>I have experience with ReactJS, mySQL, MongoDB, HTML, CSS, JS, JQuery, Express, Bootstrap, JSON, APIs, and AJAX. </p>
+        <p>I have experience with ReactJS, mySQL, MongoDB, HTML, CSS, JS, JQuery, Express, Bootstrap, JSON, APIs, Handlebars and AJAX. </p>
         <p>My dream is to one day start my own business building websites.</p>
         <p>When I'm not learning code or building applications, you can find me reading, traveling, hiking, or running.</p>
         <a className='LinkedIn' href="https://www.linkedin.com/in/allison-barnard-bb44a7100/"> LinkedIn </a>
