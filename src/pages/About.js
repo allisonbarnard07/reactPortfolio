@@ -6,7 +6,7 @@ import Photo from '../assets/images/Photo.png'
 function About(props){
     return(
         <div>
-            <img className='photo' src={Photo}></img>
+            <img className='photo' alt='Allison' src={Photo}></img>
             <Hero title={props.title} />
 
             <Content>
