@@ -1,11 +1,6 @@
 import React from "react";
 import { Container, Row } from "react-bootstrap";
 import Card from '../components/Card';
-import woodDoor from '../assets/images/woodDoor.png';
-import readMe from '../assets/images/readMe.gif';
-import employeeManagementSystem from '../assets/images/employeeManagementSystem.gif';
-import websiteCleanup from '../assets/images/websiteCleanup.png';
-import buildAndFlex from '../assets/images/buildAndFlex.png';
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -16,7 +11,7 @@ class Carousel extends React.Component {
           id: 0,
           title: "Wood Door",
           subTitle: "Job search application.",
-          imgSrc: woodDoor,
+          imgSrc: './assets/images/woodDoor.png',
           link: "https://allisonbarnard07.github.io/Job-Search/",
           selected: false,
         },
@@ -24,7 +19,7 @@ class Carousel extends React.Component {
           id: 1,
           title: "Employee Management System",
           subTitle: "Employee Management System application.",
-          imgSrc: employeeManagementSystem,
+          imgSrc: './assets/images/employeeManagementSystem.png',
           link: "https://github.com/allisonbarnard07/employeeManagementSystem",
           selected: false,
         },
@@ -32,7 +27,7 @@ class Carousel extends React.Component {
           id: 2,
           title: "ReadMe Generator",
           subTitle: "ReadMe Generator application.",
-          imgSrc: readMe,
+          imgSrc: './assets/images/readMe.png',
           link: "https://github.com/allisonbarnard07/ReadMeGenerator",
           selected: false,
         },
@@ -40,7 +35,7 @@ class Carousel extends React.Component {
             id: 3,
             title: "Website Clean Up",
             subTitle: "A code clean up project.",
-            imgSrc: websiteCleanup,
+            imgSrc: './assets/images/websiteCleanup.png',
             link: "https://allisonbarnard07.github.io/website_cleanup/",
             selected: false,
           },
@@ -48,7 +43,7 @@ class Carousel extends React.Component {
             id: 4,
             title: "Build & Flex",
             subTitle: "A walking challenge application.",
-            imgSrc: buildAndFlex,
+            imgSrc: './assets/images/buildAndFlex.png',
             link: "https://buildandflex.herokuapp.com/",
             selected: false,
           }
