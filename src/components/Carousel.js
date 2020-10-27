@@ -4,7 +4,6 @@ import Card from '../components/Card';
 import woodDoor from '../assets/images/woodDoor.png';
 import readMe from '../assets/images/readMe.gif';
 import employeeManagementSystem from '../assets/images/employeeManagementSystem.gif';
-import passwordGenerator from '../assets/images/passwordGenerator.png';
 import websiteCleanup from '../assets/images/websiteCleanup.png';
 import buildAndFlex from '../assets/images/buildAndFlex.png';
 
@@ -37,16 +36,8 @@ class Carousel extends React.Component {
           link: "https://github.com/allisonbarnard07/ReadMeGenerator",
           selected: false,
         },
-        {
-            id: 3,
-            title: "Password Generator",
-            subTitle: "Password Generator application.",
-            imgSrc: passwordGenerator,
-            link: "https://allisonbarnard07.github.io/password_generator",
-            selected: false,
-          },
           {
-            id: 4,
+            id: 3,
             title: "Website Clean Up",
             subTitle: "A code clean up project.",
             imgSrc: websiteCleanup,
@@ -54,7 +45,7 @@ class Carousel extends React.Component {
             selected: false,
           },
           {
-            id: 5,
+            id: 4,
             title: "Build & Flex",
             subTitle: "A walking challenge application.",
             imgSrc: buildAndFlex,
