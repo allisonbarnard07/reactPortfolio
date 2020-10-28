@@ -1,12 +1,11 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Content from '../components/Content';
-import Photo from '../assets/images/Photo.png'
 
 function About(props){
     return(
         <div>
-            <img className='photo' alt='Allison' src={Photo}></img>
+        
             <Hero title={props.title} />
 
             <Content>
